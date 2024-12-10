@@ -1,0 +1,2 @@
+# C# Reference Copy Bug
+This repository demonstrates a common C# issue related to reference copies. When objects are assigned, a reference to the original object is created, not a new copy.  This means that changes made through one reference will affect the original object. The `bug.cs` file illustrates the problem, while `bugSolution.cs` offers a solution using cloning or creating a new object.
